@@ -1,0 +1,35 @@
+.searchForm {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  height: 100%;
+  width: 360px;
+  padding: 5px 20px;
+  color: black;
+  font-size: 26px;
+  background-color: rgb(69, 131, 189);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.searchInput::placeholder {
+  color: black;
+}
+
+.searchBtn {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 45px;
+  padding: 5px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
